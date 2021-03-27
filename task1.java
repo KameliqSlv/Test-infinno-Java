@@ -10,17 +10,18 @@ namespace staj_c_sharp
     {
         static void Main(string[] args)
         {
-            for(int i=1;i<=100; i++)
+            for (int i = 1; i <= 100; i++)
             {
-               
+
                 if (i % 3 == 0 && i != 3)
                 {
-                    string git = i.ToString();
-                    Console.WriteLine(i = git);
-                } else if(i % 5==0 && i != 5)
+                    Console.WriteLine("git");
+                    i++;
+                }
+                else if (i % 5 == 0 && i != 5)
                 {
-                    string hub = i.ToString();
-                    Console.WriteLine(i = hub);
+                    Console.WriteLine("hub");
+                    i++;
                 }
                 Console.WriteLine(i);
             }
